@@ -17,7 +17,7 @@ const parkingSpotRoutes = require("./routes/reservation");
 const Inquiry = require("./models/inquiry");
 
 // port number
-const port = process.env.PORT_NUMBER;
+const port = process.env.PORT || 8000;
 
 // db connection
 mongoose
